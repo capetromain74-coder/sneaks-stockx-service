@@ -1,0 +1,13 @@
+{
+  "name": "sneaks-stockx-service",
+  "version": "1.0.0",
+  "description": "Microservice pour récupérer les prix StockX/GOAT via SneaksAPI",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "sneaks-api": "^1.2.4"
+  }
+}
